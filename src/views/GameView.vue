@@ -1,9 +1,12 @@
 <template>
   <main class="flex flex-col items-center justify-center my-auto text-center gap-8">
     <h1 class="text-6xl">{{ topicIndex + 1 }}. Emne: {{ topic.topic }}</h1>
-    <div class="grid grid-rows-2 md:grid-cols-2 w-2/3 md:w-1/4">
+    <div
+      class="grid w-2/3 md:w-1/4"
+      :class="`grid-rows-${topic.options.length} md:grid-cols-${topic.options.length}`"
+    >
       <p class="text-lg mb-2 md:mb-0" v-for="(option, i) in topic.options" :key="option">
-        {{ i + 1 }}. {{ option }}
+        {{ LETTERS[i] }}. {{ option }}
       </p>
     </div>
     <button
@@ -22,14 +25,21 @@ import { type GameTopic, topics } from '@/topics'
 
 const topicIndex = ref<number>(0)
 const LINK = 'https://www.google.com/search?tbm=isch&q='
+const LETTERS = ['A', 'B', 'C']
 
-let topic: GameTopic = topics[topicIndex.value]
+const topicsClone = topics
+const topic = ref<GameTopic>(getRandomTopic())
 
 function searchOrRestart() {
-  window.open(`${LINK}${topic.topic}`, '_blank')
-  topic = topics[topicIndex.value + 1]
-
+  window.open(`${LINK}${topic.value.topic}`, '_blank')
   topicIndex.value++
-  router.push({ name: 'game' })
+  topic.value = getRandomTopic()
+}
+
+function getRandomTopic(): GameTopic {
+  const index = Math.floor(Math.random() * topicsClone.length)
+  const topic = topicsClone[index]
+  topicsClone.splice(index, 1)
+  return topic
 }
 </script>

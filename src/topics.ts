@@ -97,12 +97,12 @@ export const topics: Array<GameTopic> = [
     },
     {
         topic: "rig",
-        options: ["Olie rig", "computer rig"]
+        options: ["Olie rig", "computer rig", "rig person (wealthy)"]
     },
 
     {
         topic: "pålægschokolade",
-        options: ["Lys", "Mørk"]
+        options: ["Lys", "Mørk", "Begge dele"]
     },
 
     {
@@ -189,4 +189,174 @@ export const topics: Array<GameTopic> = [
         topic: "LoL",
         options: ["Spillet", "mærkelige weabo dukker"]
     },
+    {
+        topic: "Rejsedestination",
+        options: ["Varmt land", "Koldt land"]
+    },
+    {
+        topic: "Årstid",
+        options: ["Sommer", "Vinter"]
+    },
+    {
+        topic: "Årstid",
+        options: ["Forår", "Efterår"]
+    },
+    {
+        topic: "Drikkevate",
+        options: ["Koldt", "Varmt"]
+    },
+    {
+        topic: "Socialt medie",
+        options: ["Free for all"]
+    },
+    {
+        topic: "Tøjstil",
+        options: ["Free for all"]
+    },
+    {
+        topic: "Vejr",
+        options: ["Solrigt", "Regnfuldt"]
+    },
+    {
+        topic: "Træning",
+        options: ["Fitness", "Sports aktivitet (f.eks fodbold)"]
+    },
+    {
+        topic: "Kunst",
+        options: ["Kunst i museum", "Digital kunst"]
+    },
+    {
+        topic: "Vin",
+        options: ["Hvidvin", "Rødvin"]
+    },
+    {
+        topic: "Måltid",
+        options: ["Morgenmad", "Aftensmad"]
+    },
+    {
+        topic: "Rejsetransportmiddel",
+        options: ["Fly", "Bil"]
+    },
+    {
+        topic: "Skoproducent",
+        options: ["Nike", "Adidas"]
+    },
+    {
+        topic: "Festival",
+        options: ["Musikfestival", "Madfestival"]
+    },
+    {
+        topic: "Bilfarve",
+        options: ["Sort", "Hvid"]
+    },
+    {
+        topic: "Citrusfrugt",
+        options: ["Appelsin", "Citron"]
+    },
+    {
+        topic: "Blomst",
+        options: ["Roser", "Liljer"]
+    },
+    {
+        topic: "Slik",
+        options: ["Chokolade", "Gummibamser og ligende"]
+    },
+    {
+        topic: "Superhelt",
+        options: ["Chokolade", "Gummibamser og ligende"]
+    },
+    {
+        topic: "Kagedej",
+        options: ["Chokoladekage", "Vaniljekage"]
+    },
+    {
+        topic: "Vejrforhold",
+        options: ["Solskin", "Sne"]
+    },
+    {
+        topic: "Musik instrument",
+        options: ["Free for all"]
+    },
+    {
+        topic: "Cola",
+        options: ["Coca cola", "Pepsi"]
+    },
+    {
+        topic: "Frisure",
+        options: ["Langt hår", "Kort hår"]
+    },
+    {
+        topic: "Tegnefilmsfigur",
+        options: ["Free for all"]
+    },
+    {
+        topic: "Arbejde",
+        options: ["Kontorarbejde", "Udendørs arbejde"]
+    },
+    {
+        topic: "Skotyper",
+        options: ["Sneakers", "Støvler"]
+    },
+    {
+        topic: "Drikkeflaske",
+        options: ["Plastik", "Rustfrit stål"]
+    },
+    {
+        topic: "Badedragt",
+        options: ["Et stykke", "To-delt"]
+    },
+    {
+        topic: "Filmkarakter",
+        options: ["Free for all"]
+    },
+    {
+        topic: "Hårfarve",
+        options: ["Blond", "Brunette"]
+    },
+    {
+        topic: "Stor film juli 2023",
+        options: ["Oppenheimer", "Barbie"]
+    },
+    {
+        topic: "Energibar",
+        options: ["Proteinbar", "Muslibar"]
+    },
+    {
+        topic: "Skæg",
+        options: ["Fuldt skæg", "Stubbet"]
+    },
+    {
+        topic: "Træningsbeklædning",
+        options: ["Leggings", "Træningsbukser"]
+    },
+    {
+        topic: "Vintersport",
+        options: ["Ski", "Snowboard"]
+    },
+    {
+        topic: "Bær",
+        options: ["Røde bær", "blå bær"]
+    },
+    {
+        topic: "Smykke",
+        options: ["Sølv", "Guld"]
+    },
+    {
+        topic: "Smykke",
+        options: ["Ringe", "Halskæde"]
+    },
+    {
+        topic: "Fødselsdagstema",
+        options: ["Drenge fødselsdag", "Pige fødselsdag"]
+    },
+    {
+        topic: "Bilinteriør",
+        options: ["Lædersæder", "Stofsæder"]
+    },
+    {
+        topic: "Bilinteriør",
+        options: ["Appelsinjuice", "Æblejuice"]
+    },
+
+
 ]
