@@ -3,10 +3,7 @@
     <h1 class="text-6xl">
       {{ topicIndex + 1 }}. Emne: <span class="font-bold">{{ topic.topic }}</span>
     </h1>
-    <div
-      class="grid w-2/3 md:w-1/4"
-      :class="`grid-rows-${topic.options.length} md:grid-cols-${topic.options.length}`"
-    >
+    <div class="grid w-2/3 md:w-1/4" :class="`grid-rows-${topic.options.length}`">
       <p class="text-2xl mb-2 md:mb-0" v-for="(option, i) in topic.options" :key="option">
         {{ LETTERS[i] }}. {{ capitalizeFirstLetter(option) }}
       </p>
