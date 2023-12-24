@@ -14,7 +14,7 @@ export const topics: Array<GameTopic> = [
     },
     {
         topic: "Øl",
-        options: ["FFA"]
+        options: ["Free for all"]
     },
     {
         topic: "Thor",
@@ -38,7 +38,7 @@ export const topics: Array<GameTopic> = [
     },
     {
         topic: "Bilmærke",
-        options: ["FFA"]
+        options: ["Free for all"]
     },
     {
         topic: "Å",
@@ -68,7 +68,7 @@ export const topics: Array<GameTopic> = [
     },
     {
         topic: "Dyr",
-        options: ["FFA"]
+        options: ["Free for all"]
     },
     {
         topic: "Slange",
@@ -80,7 +80,7 @@ export const topics: Array<GameTopic> = [
     },
     {
         topic: "Møbler",
-        options: ["FFA"]
+        options: ["Free for all"]
     },
     {
         topic: "Barn",
@@ -89,7 +89,7 @@ export const topics: Array<GameTopic> = [
 
     {
         topic: "Snus mærker",
-        options: ["FFA"]
+        options: ["Free for all"]
     },
     {
         topic: "Pesto",
@@ -107,7 +107,7 @@ export const topics: Array<GameTopic> = [
 
     {
         topic: "Console (xbox, playstation, nintendo, etc.)",
-        options: ["FFA"]
+        options: ["Free for all"]
     },
     {
         topic: "Rock",
@@ -147,7 +147,7 @@ export const topics: Array<GameTopic> = [
     },
     {
         topic: "Vodka",
-        options: ["FFA"]
+        options: ["Free for all"]
     },
     {
         topic: "Bad",
@@ -155,7 +155,7 @@ export const topics: Array<GameTopic> = [
     },
     {
         topic: "Kryderi",
-        options: ["FFA"]
+        options: ["Free for all"]
     },
     {
         topic: "Klovn",
