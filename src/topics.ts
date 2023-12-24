@@ -123,7 +123,7 @@ export const topics: Array<GameTopic> = [
     },
     {
         topic: "Hercules",
-        options: ["Mytologisk dude", "Tegneserie boi", "Flyvern'"]
+        options: ["Mytologisk dude", "Tegneserie boi"]
     },
     {
         topic: "Donald",
