@@ -46,6 +46,11 @@
       >
         Start spillet!
       </button>
+      <p class="text-sm text-gray-400 mt-2">
+        Vær opmærksom på, at denne side benytter sig af Plausible, som er et privat og anonymt
+        statistikværktøj. Læs mere på
+        <a href="analytics.wip.dk/privacy-policy" target="_blank">plausible.io/privacy-policy</a>
+      </p>
     </div>
   </main>
 </template>
