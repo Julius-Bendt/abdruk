@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <main class="flex justify-center my-auto">
     <div class="text-center my-auto">
